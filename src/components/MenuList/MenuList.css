@@ -1,0 +1,17 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+
+}
