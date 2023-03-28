@@ -23,7 +23,7 @@ export const MenuItem = ({ title, url = '/' }) => {
         marginTop: url === pathname || `/${url}` === pathname ? `-${height - 13}px` : '0',
       }}
     >
-      <li className={`menu-item`}>
+      <li className='menu-item'>
         {title}
       </li>
     </NavLink >

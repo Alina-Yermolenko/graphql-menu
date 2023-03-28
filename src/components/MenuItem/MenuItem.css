@@ -1,12 +1,13 @@
 .menu-link{
   box-sizing: border-box;
-  margin-bottom: 13px;
   padding: 7px 12px;
   opacity: 1;
-  transition: 1s ease,
+  transition: 1s ease;
+  margin-bottom: 13px;
 }
 
 .menu-item {
+  display: inline;
   color: #FFFFFF;
   background-color: black;
   padding: 7px 12px;
@@ -15,5 +16,5 @@
 .hidden {
   opacity: 0;
   visibility: hidden;
-  transition: 1s ease,
+  transition: 1s ease;
 }

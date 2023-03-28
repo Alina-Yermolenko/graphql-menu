@@ -62,9 +62,9 @@ function App() {
             />
           )
         })}
+        <Route path='/' element={<MenuList menuList={menuList}/>} />
         <Route path='*' element={<>Page not found</>} />
       </Routes>
-
     </>
   );
 }
